@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NEXON Lv1 Gothic OTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#main_contents {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+
+#main_contents .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  padding-bottom: 50px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result h1 {
+  font-size: 50px;
+}
+
+.result h3 {
+  font-size: 17px;
+  padding-bottom: 15px;
+}
+
+.result_img {
+  width: 300px;
+  height: 324px;
+}
+
+.result_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.result_explains {
+  display: flex;
+  font-display: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 50px;
+  line-height: 1.5;
+}
+
+.result_explains .explain {
+  font-family: "";
+  width: 400px;
+  margin: 30px;
+}
+
+.result_explains .title {
+  font-family: "GmarketSansBold";
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 3px solid #ea7e7c;
+  border-top: 3px solid #ea7e7c;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.result_explains ul {
+  padding: 0 20px;
+  list-style-type: disc;
+}
+
+.result_explains li {
+  padding-bottom: 15px;
+}
+
+.lectures {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 3px solid #ea7e7c;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.lectures .title {
+  text-align: center;
+  width: 400px;
+  font-size: 30px;
+  font-family: "GmarketSansBold";
+  color: #ea7e7c;
+  position: relative;
+}
+
+.lectures .title:before,
+.title:after {
+  content: '';
+  display: block;
+}
