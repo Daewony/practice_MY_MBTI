@@ -13,6 +13,12 @@
   font-style: normal;
 }
 
+body {
+  background-color: #faf1be;
+  color: #000;
+  font-family: "NEXON Lv1 Gothic OTF";
+}
+
 #main_contents {
   display: flex;
   justify-content: center;
@@ -39,6 +45,7 @@
 
 .result h1 {
   font-size: 50px;
+  font-family: "GmarketSansBold";
 }
 
 .result h3 {
@@ -58,7 +65,7 @@
 
 .result_explains {
   display: flex;
-  font-display: column;
+  flex-direction: column;
   align-items: center;
   width: 100%;
   height: 100%;
@@ -111,6 +118,6 @@
 
 .lectures .title:before,
 .title:after {
-  content: '';
+  content: "";
   display: block;
 }
